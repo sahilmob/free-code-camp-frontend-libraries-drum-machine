@@ -7,9 +7,8 @@ import Pad from './components/Pad'
 class App extends Component {
 
   handleKeyDown = (e) => {
-    console.log(typeof e.key)
-    let key = document.getElementsByName("w")
-    console.log(key)
+    let key = document.getElementsByName(e.key)
+    key[0].play()
   }
 
   componentDidMount() {
