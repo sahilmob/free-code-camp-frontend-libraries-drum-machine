@@ -7,7 +7,9 @@ import Pad from './components/Pad'
 class App extends Component {
 
   handleKeyDown = (e) => {
-    console.log(e.key)
+    console.log(typeof e.key)
+    let key = document.getElementsByName("w")
+    console.log(key)
   }
 
   componentDidMount() {
@@ -20,7 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <DrumMachine>
-          <Pad button="W" />
+          <Pad button="w" audioSrc="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" />
         </DrumMachine>
       </div>
     );
