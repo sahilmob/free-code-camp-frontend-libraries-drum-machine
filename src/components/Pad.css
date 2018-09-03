@@ -1,5 +1,9 @@
-.drum-pad{
-    background: red;
-    padding: 30px;
-    cursor: pointer;
+.drum-pad button{
+    background: blue;
+    border: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: white;
+
 }

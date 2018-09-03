@@ -1,4 +1,5 @@
 import React from 'react'
+import "./DrumMachine.css"
 
 export default (props) => {
     return (

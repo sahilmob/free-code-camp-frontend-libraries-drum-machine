@@ -1,0 +1,6 @@
+#drum-machine{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+    max-width: 350px;
+    margin: 50px auto;
+}

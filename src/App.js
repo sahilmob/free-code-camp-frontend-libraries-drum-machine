@@ -30,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="display"></div>
+        <div id="display">Press key to play audio</div>
         <DrumMachine>
           <DrumPad button="q" audioSrc="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" clicked={this.clickHandler} desc="Heater-1" />
           <DrumPad button="w" audioSrc="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" clicked={this.clickHandler} desc="Heater-2" />
